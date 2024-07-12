@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>ar.edu.utn.frc.tup.lciii</groupId>
-    <artifactId>scaffolding</artifactId>
+    <artifactId>car-races</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>scaffolding</name>
-    <description>SpringBoot Project Template</description>
+    <name>car-races</name>
+    <description>Car Races Project</description>
 
     <properties>
         <java.version>17</java.version>
@@ -21,26 +21,26 @@
 
     <dependencies>
         <!-- Spring -->
-		<!-- Spring Boot Starters -->
+        <!-- Spring Boot Starters -->
 
-		<!-- Web -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+        <!-- Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
-		<!-- JPA -->
-		<dependency>
+        <!-- JPA -->
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-		<!-- Test -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+        <!-- Test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 
         <!-- SpringDoc -->
         <dependency>
@@ -49,14 +49,14 @@
             <version>2.5.0</version>
         </dependency>
 
-		<!-- ======================================================================== -->
+        <!-- ======================================================================== -->
 
-		<!-- Lombok -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
 
         <!-- Model Mapper -->
         <dependency>
@@ -65,7 +65,7 @@
             <version>3.1.1</version>
         </dependency>
 
-		<!-- H2 Database -->
+        <!-- H2 Database -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>

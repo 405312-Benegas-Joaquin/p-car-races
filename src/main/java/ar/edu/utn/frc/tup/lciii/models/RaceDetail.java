@@ -1,13 +1,15 @@
-package ar.edu.utn.frc.tup.lciii.dtos.dummy;
+package ar.edu.utn.frc.tup.lciii.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class ResponseDummyDTO {
+@NoArgsConstructor
+public class RaceDetail {
     private Long id;
-    private String dummy;
+    private Car car;
+    private double time;
 }
+  

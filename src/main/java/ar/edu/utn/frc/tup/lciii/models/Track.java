@@ -7,8 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Dummy {
+public class Track {
     private Long id;
-    private String dummy;
+    private String name;
+    private double length;
+    private int difficulty;
 }
   

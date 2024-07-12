@@ -5,19 +5,22 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
-@Table(name = "dummys")
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DummyEntity {
+
+@Entity
+@Table(name = "drivers")
+public class DriverEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     private Long id;
-
-    @Column
-    private String dummy;
+    @Column(name = "name")
+    private String name;
+    @Column(name = "age")
+    private int age;
+    @Column(name = "experience")
+    private int experience;
 }
   
